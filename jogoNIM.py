@@ -17,8 +17,8 @@ def usuario_escolhe_jogada(n, m):
 
 
 def partida():
-    n = int(input('Quantas peças?'))
-    m = int(input('Limite de peças por jogada?'))
+    n = int(input('Quantas peças? '))
+    m = int(input('Limite de peças por jogada? '))
     
     if n % (m+1) == 0:
         print('\nVocê começa!\n')
@@ -33,6 +33,7 @@ def partida():
             print('\nO computador tirou', jogada, "peças.")
             if n == 0:
                 cpu_win == True
+                break
             else:
                 print('Agora restam', n, 'peças no tabuleiro.\n')
                 print('\nÉ a sua vez!\n')
@@ -46,7 +47,6 @@ def partida():
             print('\nO computador tirou', jogada, "peças.")
             print('Agora restam', n, 'peças no tabuleiro.\n')
             if n == 0:
-                print('\nFim do jogo! O computador ganhou!\n')
                 break
             elif n > 0:    
                 print('\nÉ a sua vez!\n')
@@ -55,11 +55,12 @@ def partida():
                 print('\nVoce tirou', jogada, "peças.")
                 print('Agora restam', n, 'peças no tabuleiro.\n')
             print('\nAgora é a vez do computador!\n')
+        print('\nFim do jogo! O computador ganhou!\n')
 
 
 def campeonato():
     n_partida = 1
-    while n_partida < 3:
+    while n_partida < 4:
         print('\n**** Rodada', n_partida, '****\n')
         partida()
         n_partida +=1
