@@ -11,7 +11,7 @@
 - [x] Laços - `while`
 - [x] Funções
 - [x] Depuração, testes automatizados e refatoração
-- [ ] Repetições encaixadas
-- [ ] Listas
+- [x] Repetições encaixadas
+- [x] Listas + `for`
 
 Teoria combinada a prática, como pode ser observado nos exercícios.
