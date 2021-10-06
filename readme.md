@@ -15,6 +15,7 @@
 - [x] Listas + `for`
 - [x] Objetos na memória em bytes
 - [x] PEP20 e Clean Code
-- [ ] 2 programas completos (jogoNIM.py e cohpiah.py)
+- [x] Implementar um programa completo do zero (jogoNIM.py)
+- [ ] Implementação de um programa parcialmente desenvolvido (cohpiah.py)
 
 Teoria combinada a prática, como pode ser observado nos exercícios.
