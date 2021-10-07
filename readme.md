@@ -16,6 +16,6 @@
 - [x] Objetos na memória em bytes
 - [x] PEP20 e Clean Code
 - [x] Implementar um programa completo do zero (jogoNIM.py)
-- [ ] Implementação de um programa parcialmente desenvolvido (cohpiah.py)
+- [x] Implementação de um programa parcialmente desenvolvido (cohpiah.py)
 
 Teoria combinada a prática, como pode ser observado nos exercícios.
